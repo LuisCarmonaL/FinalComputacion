@@ -15,11 +15,11 @@ C:/Users/acer/Desktop/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60497
+58619
 Successfully changed project path to: C:/Users/acer/Desktop/My project
 C:/Users/acer/Desktop/My project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 74.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001543 seconds.
+Registered in 0.001638 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.630 seconds
+- Completed reload, in  0.684 seconds
 Domain Reload Profiling:
-	ReloadAssembly (630ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (685ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (468ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
+			SetupTypeCache (183ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (187ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (198ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (79ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (83ms)
 				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,51 +73,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003943 seconds.
+Registered in 0.003533 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.300 seconds
+- Completed reload, in  1.338 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1301ms)
-		BeginReloadAssembly (153ms)
+	ReloadAssembly (1339ms)
+		BeginReloadAssembly (167ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1086ms)
-			LoadAssemblies (120ms)
+		EndReloadAssembly (1109ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (378ms)
+			SetupTypeCache (412ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (386ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (383ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3334 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.9 MB.
-System memory in use after: 144.1 MB.
+Unloading 3335 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.2 MB.
+System memory in use after: 145.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3769.
-Total: 4.862200 ms (FindLiveObjects: 0.339700 ms CreateObjectMapping: 0.258700 ms MarkObjects: 4.106300 ms  DeleteObjects: 0.156300 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3778.
+Total: 7.153500 ms (FindLiveObjects: 0.416600 ms CreateObjectMapping: 0.227600 ms MarkObjects: 6.361500 ms  DeleteObjects: 0.146200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,330 +131,481 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/VisualEffectGraph
-  artifactKey: Guid(1079097bea828684a8451375e986dad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VisualEffectGraph using Guid(1079097bea828684a8451375e986dad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb9513ec073603459bb42b078b71894') in 0.014708 seconds 
+  path: Assets/Final.unity
+  artifactKey: Guid(c23e768a5f64a524ba2569d1340f5754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Final.unity using Guid(c23e768a5f64a524ba2569d1340f5754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a00744e33344c031620cc2f3d0ed73') in 0.031083 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 115.120450 seconds.
+  Time since last request: 47.566222 seconds.
+  path: Assets/Humito
+  artifactKey: Guid(49495b767463c0344a109ab94f6fd211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humito using Guid(49495b767463c0344a109ab94f6fd211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ad99847eea07053a2eea4c4cf5946f') in 0.010258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.080727 seconds.
+  path: Assets/Humito/Smoke1.fbx
+  artifactKey: Guid(2410bfe803db1a6428a839d708329341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humito/Smoke1.fbx using Guid(2410bfe803db1a6428a839d708329341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f129295de2ab8464d99841793c3e05b0') in 0.382081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.897596 seconds.
+  path: Assets/Humito/Smoke.shadergraph
+  artifactKey: Guid(72627cf0768633f47931b0f2002b91b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Humito/Smoke.shadergraph using Guid(72627cf0768633f47931b0f2002b91b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb4f2f58f706c9716ae4a8143bb10ca') in 0.017481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.829414 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(248f83c853b733f4db7c7c9bd6db6bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(248f83c853b733f4db7c7c9bd6db6bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cda0b39cb261016aee33bfe290c84ed') in 0.011974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1225.855817 seconds.
+  path: Assets/ExampleAssets/Shaders
+  artifactKey: Guid(eb6819cbd279a3941a65f1689b2f621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Shaders using Guid(eb6819cbd279a3941a65f1689b2f621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e590aefae26cd28906a7fcc67f064dd5') in 0.011350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.774217 seconds.
   path: Assets/VisualEffectGraph/Lightning.vfx
   artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81121a2f7b064ee42d07cf557241fd47') in 0.045898 seconds 
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffd24d57459ff567ae26a8c1a6458cd') in 0.012361 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2000.905805 seconds.
-  path: Assets/ExampleAssets/Models/paintbucket_low.fbx
-  artifactKey: Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/paintbucket_low.fbx using Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb120b6ed1c9690f3c18633a9ae2dd0') in 1.431062 seconds 
+  Time since last request: 19.452043 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8b3785c3ad6ee08fa7d538b961fd17') in 0.003521 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/ExampleAssets/Models/safetygoggles_low.fbx
-  artifactKey: Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/safetygoggles_low.fbx using Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae8946a3f99a923f7803907a8c27ead') in 0.456558 seconds 
+  Time since last request: 163.162983 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12f5f05d816d93ba9cbadf206cc36c0') in 0.003845 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000501 seconds.
-  path: Assets/ExampleAssets/Models/magneticlevel_low.fbx
-  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7daa638a4f61892d85b4e50fee1e849') in 0.068854 seconds 
+  Time since last request: 61.208548 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dd2286ff902e72ff740e2fa8114920') in 0.005820 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/ExampleAssets/Models/brush_low.fbx
-  artifactKey: Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/brush_low.fbx using Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9112836ff5ae65005d884998ee7751') in 0.047578 seconds 
+  Time since last request: 2.341466 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405b732f1496af710985060fb1d6c207') in 0.005055 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/ExampleAssets/Materials/PaintLabel_Mat.mat
-  artifactKey: Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/PaintLabel_Mat.mat using Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c36a7279f016c98e6c23d7bc391d33c') in 0.351357 seconds 
+  Time since last request: 4.018444 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d55fe2e356adb19e30362ead093311') in 0.004760 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/ExampleAssets/Models/Workbench.fbx
-  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9763579b58169ef327fd8d483de42484') in 0.114233 seconds 
+  Time since last request: 32.775302 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743bd504fd5d399c91e5aa9e547964a2') in 0.007336 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000410 seconds.
-  path: Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat
-  artifactKey: Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat using Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec41258e50d7b0724bce6a1b02e69ab') in 0.564275 seconds 
+  Time since last request: 12.301223 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795339f95b7b7469ef23c2f8020179f7') in 0.004838 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/ExampleAssets/Materials/Strap_Mat.mat
-  artifactKey: Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Strap_Mat.mat using Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a542234631127ea0c107d7d268657760') in 0.311387 seconds 
+  Time since last request: 9.148323 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f6919448a97c83b93519e6356ffd05') in 0.007097 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat
-  artifactKey: Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat using Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4d08b544b44bbbf01fdafd95ff430a') in 0.032969 seconds 
+  Time since last request: 28.566607 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8aeed8a51e19022a8528f412952251f') in 0.004158 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/ExampleAssets/Materials/Plastic_Transparent.mat
-  artifactKey: Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Plastic_Transparent.mat using Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa88e47cc5ed2495feca365ac46df73c') in 0.023017 seconds 
+  Time since last request: 5.211704 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952d1962968f64faa75533dd43d7791b') in 0.004991 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
-  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9aec0391899b041fa150a21f0d5646') in 0.514504 seconds 
+  Time since last request: 17.910043 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6996b3b8ae8d44cd8fd1fa0442c3ef') in 0.005150 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat
-  artifactKey: Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat using Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a82a5da02497828fc2c902b30e60d5') in 0.023558 seconds 
+  Time since last request: 64.619504 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bbcb6d8a679756139bb9128bf06051') in 0.004568 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
-  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4193ea014fb52272aa79e827f0b902d4') in 0.510303 seconds 
+  Time since last request: 361.990836 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a4f7d816673be0029c683b4eff5631') in 0.006995 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Materials/Skybox_Mat.mat
-  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Skybox_Mat.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d54ab3375f41efad00566dcae11def2') in 0.034489 seconds 
+  Time since last request: 4.146753 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf63e18afa2f85ac35b5a0324b3b29f') in 0.005553 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
-  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf71d48645b4137c3fdde14caf1f63f') in 0.032226 seconds 
+  Time since last request: 295.548587 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077bcd0f210d21af36a5799c7f74685c') in 0.004570 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/ExampleAssets/Materials/Plastic_White_Mat.mat
-  artifactKey: Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Plastic_White_Mat.mat using Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7270cf5fe7035eb4043b23a71cdca86e') in 0.023900 seconds 
+  Time since last request: 1.435251 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa2133016ee0656207caf2394f02025') in 0.005040 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/ExampleAssets/Materials/Stud_Mat.mat
-  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Stud_Mat.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa2aecd2a25a8d8aaf6cdad1b5a242e') in 0.058202 seconds 
+  Time since last request: 15.953987 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4748db66b4c63d7802ea14d28c39af5') in 0.004581 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/ExampleAssets/Models/Workbench_Low.fbx
-  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f99d08570cdde3afaf55ae1a8262d9b') in 0.136002 seconds 
+  Time since last request: 0.547131 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1260686843d8a2282c7b9122fe5b71a2') in 0.004590 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/ExampleAssets/Materials/PaintBrush_Mat.mat
-  artifactKey: Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/PaintBrush_Mat.mat using Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f8432233d9ceec849c9f270325d606') in 0.037615 seconds 
+  Time since last request: 16.835192 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2e3f61c7ca3572e4cb8640bdd72cdb') in 0.004055 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/ExampleAssets/Models/safetyhat_low.fbx
-  artifactKey: Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/safetyhat_low.fbx using Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5935c6193b6a59e066fce2003b46692c') in 0.034220 seconds 
+  Time since last request: 34.858444 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee38504be396d97dc93f28d52d4816a') in 0.004595 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.806040 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
-  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc837b22dad5c9afcddefa703e0bc63') in 0.049349 seconds 
+  Time since last request: 93.090288 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6bd31cb708a191f65c4409d3c58282') in 0.005478 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.086779 seconds.
-  path: Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat
-  artifactKey: Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat using Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867bca899d157f77d37634eafef9f1aa') in 0.038507 seconds 
+  Time since last request: 14.775063 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b234e7b18178b3d43fc9c2d1d7facf4') in 0.004738 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.047122 seconds.
-  path: Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat
-  artifactKey: Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat using Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ab71af590679b32677dc30ed226a51') in 0.023936 seconds 
+  Time since last request: 19.843474 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad9bf5ae2f67d8fdf03ea0f57d24a48') in 0.004352 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.380280 seconds.
-  path: Assets/ExampleAssets/Materials/OBS_Mat.mat
-  artifactKey: Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/OBS_Mat.mat using Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd04199af43445cb2cc288251b06194') in 0.034259 seconds 
+  Time since last request: 1.085058 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4269dc81ab2c5d8de0a3aee9da80bd6') in 0.004185 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat
-  artifactKey: Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat using Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b31a38aa84ec72b691f75649480a6fe') in 0.703077 seconds 
+  Time since last request: 16.664727 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825d74359c9c8ec51deabd43a129f649') in 0.004749 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/ExampleAssets/Materials/DryWall_Mat.mat
-  artifactKey: Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/DryWall_Mat.mat using Guid(a68228c24abfa2f4b8954d7b0148f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1d94bab502ca3021b8842519c6e122') in 0.039974 seconds 
+  Time since last request: 5.907187 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53d0d4e2e57d377223cf42215bdb2f8') in 0.004275 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/ExampleAssets/Models/hammer_low.fbx
-  artifactKey: Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/hammer_low.fbx using Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0098d2334523c92cc3d702ca4ee63b2') in 0.039588 seconds 
+  Time since last request: 14.373752 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8a3b12590cd5d315b67e8c183ce4c0') in 0.004589 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat
-  artifactKey: Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/ConstructionLight_Mat.mat using Guid(49076442eeb7e054b8e8869f8b40656d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057c629e9591e646e979d0fd0d9eba29') in 0.432625 seconds 
+  Time since last request: 27.740263 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ec3fec18c1c5e44206c4e242d23cce') in 0.003913 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/ExampleAssets/Models/Stud.fbx
-  artifactKey: Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/Stud.fbx using Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb17f227481600cbf7b05869a1581d00') in 0.049906 seconds 
+  Time since last request: 48.813469 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d604bcb721a9c383abaf679a0cf1800') in 0.004977 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/ExampleAssets/Materials/Ground_Mat.mat
-  artifactKey: Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Ground_Mat.mat using Guid(d92ef32394b5f474385d74b565a7bdd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464ecfb875d680da63be4f88529f4394') in 0.039794 seconds 
+  Time since last request: 69.056151 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5782bc9f43d6923d45eea690853bffc') in 0.003889 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat
-  artifactKey: Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat using Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8fef95f5cf1ab691e96a9fc0590164') in 0.405717 seconds 
+  Time since last request: 14.942356 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e8efbeef6e4632d2da32fec448aa3b') in 0.004523 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/ExampleAssets/Models/jigsaw_low.fbx
-  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b286f23ab1406b66ffa7fd117ec63a') in 0.043733 seconds 
+  Time since last request: 5.091725 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd139d4b694a23ea43079af8d3ab4ab9') in 0.004150 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/ExampleAssets/Materials/Jigsaw_Mat.mat
-  artifactKey: Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Jigsaw_Mat.mat using Guid(801db2d997a562b4ea333aa4593ce0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2c3e8b482bfe7692597efc101f542e') in 0.037827 seconds 
+  Time since last request: 41.760657 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a9a144b47d114a8daa760a0eb541f1') in 0.004995 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/ExampleAssets/Materials/Hammer_Mat.mat
-  artifactKey: Guid(4efcffd7ae23f1e41943fd914b18da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Hammer_Mat.mat using Guid(4efcffd7ae23f1e41943fd914b18da10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35e9c0d8e130d6ff509af1a613494d7') in 0.043355 seconds 
+  Time since last request: 496.916506 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99d4b3539492cf141400b7c26f03e9f') in 0.004835 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/ExampleAssets/Models/Workshop_Set.fbx
-  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07793a4d2b03e0e09167bfceb24a94b') in 0.126438 seconds 
+  Time since last request: 16.650701 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789bf8ec7b9d48ef7dfd0d0427f392a1') in 0.003650 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
-  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b2f32173df055a9d31b242b3d5989c') in 0.077398 seconds 
+  Time since last request: 3.192026 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4f5862f060e1eb5b1471ec67deb2df') in 0.004051 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/ExampleAssets/Materials/LightBulb_Mat.mat
-  artifactKey: Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/LightBulb_Mat.mat using Guid(ec739259ec61f5d4ba3ed6d34fd802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed9e64f0d16e62cbd185bf095894f5b') in 0.317919 seconds 
+  Time since last request: 16.782385 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37198905c893fe7277271f2643913d3a') in 0.004453 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/ExampleAssets/Materials/HardHat_Mat.mat
-  artifactKey: Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/HardHat_Mat.mat using Guid(e93789f0a5d66df4a81613935579642b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0451e8e4fc44c0c0ad06b480daab191') in 0.036066 seconds 
+  Time since last request: 31.816569 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6804eb903d74bc5f90b53291c784932e') in 0.003576 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat
-  artifactKey: Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/DryWallPainted_Mat.mat using Guid(9b8eadc4de0544646b75ddcc43f8fd06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e084f414280b96736064de24338bc225') in 0.033184 seconds 
+  Time since last request: 13.829372 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f833bae54ed21704ed3ecdfa659d2b') in 0.004514 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat
-  artifactKey: Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat using Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d0adbd293f6d73553ee1adc198f712') in 0.021336 seconds 
+  Time since last request: 9.596338 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48d2c38fe96f4d6390a5fd53b8229e4') in 0.005079 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
-  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a46e45ab72210011683b98bb693f19') in 0.024614 seconds 
+  Time since last request: 21.165851 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f485a0c334df07cb88f5f7c00434b425') in 0.005040 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/ExampleAssets/Materials/Liquid_Mat.mat
-  artifactKey: Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Materials/Liquid_Mat.mat using Guid(c532880e607f8c84d8b9bf0c46a522ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf9985e948210718225141c8418d287') in 0.023953 seconds 
+  Time since last request: 14.417019 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8e93b5944097aaf5aea4881af7a2ac') in 0.005501 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf
-  artifactKey: Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf using Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca91db08ed2b2ee29570b7404c3ed2ba') in 0.047536 seconds 
+  Time since last request: 85.504230 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5a842da5df376571df31d98a50545d') in 0.005737 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/ExampleAssets/Models/small_plane.fbx
-  artifactKey: Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Models/small_plane.fbx using Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21ffefb080f2bc5460e0e031b036c2e') in 0.039669 seconds 
+  Time since last request: 4.428569 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a205c5b9b6b70d4babca3359c66914c') in 0.004561 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1081.896073 seconds.
-  path: Assets/Presets
-  artifactKey: Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Presets using Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1966229f3d7993f283b578bcf544b58') in 0.008492 seconds 
+  Time since last request: 31.771705 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003c4946dfec14fd1c69d07601068c54') in 0.004934 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.365957 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1fccef896d48891410691dfde716e5') in 0.008225 seconds 
+  Time since last request: 2.671323 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f01db10695b9ec88f50495aa5f4dc88') in 0.004811 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.447741 seconds.
-  path: Assets/ExampleAssets
-  artifactKey: Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac45704b3e904ca5b19a6457cc79ac') in 0.008610 seconds 
+  Time since last request: 9.347698 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b57476be46a1aab02a80b346c02ce0') in 0.004237 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.153810 seconds.
-  path: Assets/ExampleAssets/New Folder
-  artifactKey: Guid(39ef1cd9d5fbc104d97a3074add3e3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/New Folder using Guid(39ef1cd9d5fbc104d97a3074add3e3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff9fd6dcf4fdcde91aebfbd82c420fc') in 0.008330 seconds 
+  Time since last request: 4.379100 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1e3eeb94264e55f4e523be893acde1') in 0.005702 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.515339 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.007784 seconds 
+  Time since last request: 85.398032 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9318544c48080082e52e785d71741e7b') in 0.004202 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.593560 seconds.
-  path: Assets/Materials 1
-  artifactKey: Guid(e1a7beaac510b1b4aad924c8466184b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials 1 using Guid(e1a7beaac510b1b4aad924c8466184b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c56db411f17b908ee90010961600ec7') in 0.007091 seconds 
+  Time since last request: 5.102977 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a975a1d4a9be3270eea78569bece2b40') in 0.004391 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.109432 seconds.
-  path: Assets/Materials 1/fire-flames-explosion.png
-  artifactKey: Guid(5ae12e732b24a054287cc6b3fbb6ad2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials 1/fire-flames-explosion.png using Guid(5ae12e732b24a054287cc6b3fbb6ad2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15cccc21320ee25ae67f0c016f77d979') in 0.088950 seconds 
+  Time since last request: 42.056219 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c777dda29bc681bf3063b4127b7ea87') in 0.005747 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.328540 seconds.
-  path: Assets/Materials 1/fire-flames-explosion.png
-  artifactKey: Guid(5ae12e732b24a054287cc6b3fbb6ad2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials 1/fire-flames-explosion.png using Guid(5ae12e732b24a054287cc6b3fbb6ad2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30642e2cbb1675a833ee03c3a5756deb') in 0.015017 seconds 
+  Time since last request: 54.966720 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216569afa999f21630761b52964f45e7') in 0.005491 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 319.881119 seconds.
-  path: Assets/Materials 1/Fire.mat
-  artifactKey: Guid(d9b9660bffc9c684da4c9d7f0154cc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials 1/Fire.mat using Guid(d9b9660bffc9c684da4c9d7f0154cc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb97c384c4c405944310897977b80039') in 0.026254 seconds 
+  Time since last request: 28.439630 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ba87f09f961ff25bf7081d468fd8ca') in 0.004895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.138992 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5e69c1e76c5ee4520002e93a6fece7') in 0.004553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.766136 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e50f9b8fe2c82cdb3956d38137523a') in 0.005359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.762301 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bb2aef79314581083f672d2c9d5fc6') in 0.005466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.002743 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c120607db5a2ba025d15386dc5461f9') in 0.004387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.261039 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8271c1247ac9b0f536d66ada02855c5d') in 0.004440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.682483 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3813c24329a0a5981be9548f05e283f2') in 0.005341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.415229 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d0f0812b7a8de28c88049700befd95') in 0.005217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.050106 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bad669927789c683ec259bceb5d0841') in 0.004374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.744965 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c827410beb87e8a81513099e9320387') in 0.004963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.511034 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5f97fe743d7859c576913c857cf716') in 0.005131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.428980 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3857623f8592b091d7dbd7a9d01bd50') in 0.005917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.920563 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721e8b597a9726572e0b85909c58f075') in 0.004757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.896372 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e49da414562a1142eebdf773a69ac4') in 0.003641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.007738 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550effc4c457d30836f9e4212c09ac7e') in 0.004069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.031350 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01ff860e646aefd1217c146b2aa379c') in 0.006777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 185.106182 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c094a23c4b58afb6b785a23c1c152aba') in 0.004598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.612503 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abe912213a0165b6c82cc8cec47105d') in 0.004149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.631231 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92002b4e53c298bc8a9666d2d609ba04') in 0.004008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.828040 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e0a485df16f812e3d06e2fa5d09650') in 0.003963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.197787 seconds.
+  path: Assets/VisualEffectGraph/Lightning.vfx
+  artifactKey: Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VisualEffectGraph/Lightning.vfx using Guid(88143f730658a5a42b3b58a41765e572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad62d7ffe279c2cbab9e0c64eee66c6d') in 0.005975 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
